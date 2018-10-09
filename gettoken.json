@@ -1,0 +1,14 @@
+{
+  "grant_type": "password",
+  "username": "testuser",
+  "password": "password",
+  "scope": "openid offline_access",
+  "client_id" : "product-app"
+}
+
+
+
+
+
+curl -X POST  -d "grant_type=password&username=testuser&password=password&client_id=product-app&scope=openid offline_access" http://localhost:8080/auth/realms/SpringBoot/protocol/openid-connect/token
+

@@ -1,0 +1,12 @@
+#keycloak.security-constraints[0].authRoles[0]=user
+#keycloak.security-constraints[0].securityCollections[0].patterns[0]=/products/*
+
+
+
+
+
+#http://localhost:8080/auth/realms/SpringBoot/protocol/openid-connect/token
+
+
+response_type=code&client_id=product-app
+&redirect_uri=http%3A%2F%2Flocalhost%3A8081%2Fproducts&state=ce7b616b-fa4c-499e-b1c7-dbec33187283&login=true&scope=openid
